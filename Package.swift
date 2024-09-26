@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "GiphyiOS",
     platforms: [
-        .iOS(.v9)
+        .iOS(.v13)
     ],
     products: [
         .library(
@@ -14,7 +14,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/AFNetworking/AFNetworking.git", .upToNextMajor(from: "4.0.0"))
+        .package(url: "https://github.com/baseco/AFNetworking.git", .revision("75441a7")),
     ],
     targets: [
         .target(
