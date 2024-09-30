@@ -20,7 +20,7 @@ let package = Package(
         .target(
             name: "GiphyiOS",
             dependencies: ["AFNetworking"],
-            path: "Pod/Classes",
+            path: "GiphyiOS",
             publicHeadersPath: "include",
 
             cSettings: [
