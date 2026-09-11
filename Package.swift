@@ -14,7 +14,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/baseco/AFNetworking.git", .revision("3272724f5b55df8287c5de3bad9eff83ed0c2256")),
+        .package(url: "https://github.com/baseco/AFNetworking.git", .revision("c89d2f5207c0721cbb1f3dd5ac54000c34dafcab")),
     ],
     targets: [
         .target(
